@@ -1,3 +1,4 @@
+#automerge developemnt changes to child streams
 ALL_BRANCHES=`git ls-remote . | cut -d $'\t' -f 2` # THIS WILL INCLUDE THE FOLDER AS PREFIX
 #echo $ALL_BRANCHES
 string1="/refs/remotes/origin"
